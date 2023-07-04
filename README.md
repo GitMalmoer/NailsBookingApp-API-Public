@@ -2,7 +2,7 @@
 Public version of my Nails Booking API
 
 ## To do very soon:
-- Complete code refactor with CQRS and MediatR pattern
+- Complete code architecture refactor with CQRS and MediatR pattern
 - Make code loosely coupled. For test purposes evrtything is now tightly coupled in controllers.
 - Refactor ApiResponse - This class is repeated almost in every request. This class is not necessary because im going to base on status codes and middlewares to handle api response.
 
